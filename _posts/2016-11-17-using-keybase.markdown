@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Generating a private/public key pair using keybase"
+date:   2016-11-18 10:00:00 +0000
+categories: encryption 
+---
+
+__What is a key pair?__
+
+you've probably heard of encryption - depending on where you've heard about it you might think it's something that only "bad guys" use - in actual fact encryption is everywhere, it protects your sensitive information when shopping online - any website where you see that little green padlock in the browser (a website that uses HTTPS) uses encryption - there's a whole host of things that encryption can be used for!
+In this post however we're only really interested in secure* email communication, when I say secure I mean to a reasonable standard - but it should be noted that encryption doesn't make the messages invisible just *VERY* hard to read for the average adversary
+coding messages have been around since the roman times - look at the caeser cipher for an example of one of the earliest methods of securing communications
+but anyway back to keys (it should also be noted that this post is designed to be a brief introduction to using public/privatekey cryptography not an exhaustive account of how it works) public key cryptography (also known as asymmetric key cryptography) is particularly useful as it allows the user to distribute their public key to anyone they wish to communicate privately with but only _they_ can decrypt messages that are encrypted with the public key - so anyone and everyone can use the users public key (well call it pub1) to encrypt a message where the intended recipient has the complimentary private key (pk1)
+
+for example alice, bob, and 
+
+[1]: https://en.wikipedia.org/wiki/Alice_and_Bob
+

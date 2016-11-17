@@ -24,6 +24,7 @@ github_username:  phyushin
 keybase_user: phyushin
 bitcoin: 1Ex7K83rKnzFo5HeWujK2G6d6RV3saUErz
 reddit: phyushin360
+host: 0.0.0.0
 # Build settings
 markdown: kramdown
 theme: minima
