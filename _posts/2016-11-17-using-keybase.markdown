@@ -2,7 +2,7 @@
 layout: post
 title:  "Generating a private/public key pair using Keybase.io"
 date:   2016-11-22 10:00:00 +0000
-categories: encryption
+categories: encryption keys
 ---
 
 __What is a key pair?__
@@ -23,7 +23,7 @@ he then puts his pad lock on and sends it back to Alice who finally unlocks it a
 
 So, lets get on with it go to the [Keybase website][2]
 and create an account:
-![creating new keybase user]({{ site.url }}/assets/generating a key using keybase\01-joiningkeybase.png)
+![creating new keybase user]({{ site.url }}/assets/generating_a_key_using_keybase\01-joiningkeybase.png)
 
 once you've picked a username, put your email address in and choose a *secure* password *one you haven't used elsewhere*
 
