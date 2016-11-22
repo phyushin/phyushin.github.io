@@ -23,5 +23,5 @@ So, lets get on with it goto the [Keybase website][2]
 and create an account
 ![My helpful screenshot]({{ site.url }}/assets/generating a key using keybase\01-joiningkeybase.png)
 
-[1] :https://en.wikipedia.org/wiki/Alice_and_Bob
-[2] :https://keybase.io
+   [1]: https://en.wikipedia.org/wiki/Alice_and_Bob "Alice and Bob"
+   [2]: https://keybase.io "Keybase"
