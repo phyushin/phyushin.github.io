@@ -38,5 +38,5 @@ and create an account
 ![generating pgp key]({{ site.url }}/assets/generating a key using keybase\08-public key.png)
 
 
-[1] :https://en.wikipedia.org/wiki/Alice_and_Bob
-[2] :https://keybase.io
+   [1]: https://en.wikipedia.org/wiki/Alice_and_Bob "Alice and Bob"
+   [2]: https://keybase.io "Keybase"
