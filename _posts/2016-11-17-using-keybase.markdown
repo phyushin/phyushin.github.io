@@ -21,7 +21,22 @@ he then puts his pad lock on and sends it back to Alice who finally unlocks it a
 
 So, lets get on with it goto the [Keybase website][2]
 and create an account
-![My helpful screenshot]({{ site.url }}/assets/generating a key using keybase\01-joiningkeybase.png)
+![creating new keybase user]({{ site.url }}/assets/generating a key using keybase\01-joiningkeybase.png)
+
+![adding pgp key]({{ site.url }}/assets/generating a key using keybase\02-keybaseaddpgpkey.png)
+
+![need a pgp key]({{ site.url }}/assets/generating a key using keybase\03-addakey.png)
+
+![generating pgp key]({{ site.url }}/assets/generating a key using keybase\04-generating.png)
+
+![generating pgp key cont.]({{ site.url }}/assets/generating a key using keybase\05-generating2.png)
+
+![finished generating pgp key]({{ site.url }}/assets/generating a key using keybase\06-generating3.png)
+
+![generating pgp key]({{ site.url }}/assets/generating a key using keybase\07-editkey.png)
+
+![generating pgp key]({{ site.url }}/assets/generating a key using keybase\08-public key.png)
+
 
 [1] :https://en.wikipedia.org/wiki/Alice_and_Bob
 [2] :https://keybase.io
