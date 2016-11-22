@@ -18,4 +18,5 @@ they have a box with two lock hasps on alice writes a message on a piece of pape
 he then puts his pad lock on and sends it back to alice who finally unlocks it and sends it back - when bob receives it this time he unlocks his lock and then can read the note - the processes is repeated for the communication
  note: this isn't EXACTLY how it works but it helps visualise the basic process involved and the idea that only alice can unlock alice's key and bob can only unlock bob's key 
 
+![My helpful screenshot]({{ site.url }}/assets/generating a key using keybase\01-joiningkeybase.png)
 [1]: https://en.wikipedia.org/wiki/Alice_and_Bob
