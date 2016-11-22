@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using the mailvelope extension to send and receive encrypted mail"
-date:   2016-11-22 00:00:00 +0000
+date:   2016-11-20 00:00:00 +0000
 categories: encryption mail
 ---
 
