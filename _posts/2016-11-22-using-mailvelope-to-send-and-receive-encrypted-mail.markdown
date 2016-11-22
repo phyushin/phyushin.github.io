@@ -12,7 +12,9 @@ and allows you to send and receive encrypted emails with relative ease
 
 __First off - you'll need key pair__
 
-whilst not _strictly_ true - you only _really_ need the public keys of other people to _send_ encrypted emails - you do how ever need your private key
+whilst not _strictly_ true - you only _really_ need the public keys of other people to _send_ encrypted emails - you do how ever need your private key if you want to read what you sent or read the replies back
+
+we touched on [how to generate a key pair][4] in the previous blog so
 
 
 
