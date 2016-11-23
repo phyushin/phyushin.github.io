@@ -28,27 +28,27 @@ and create an account:
 once you've picked a username, put your email address in and choose a *secure* password *one you haven't used elsewhere*
 
 Once we've logged in we will see something like this:
-![adding pgp key]({{ site.url }}/assets/generating a key using keybase/02-keybaseaddpgpkey.png)
+![adding pgp key]({{ site.url }}/assets/generating_a_key_using_keybase/02-keybaseaddpgpkey.png)
 
 *but what is this PGP key?* well, it's out asymmetric key pair we mentioned earlier - click add a PGP key as shown in the screen shot - as this post is titled _Generating a private/public key pair using Keybase.io__ that's what we're going to do
 
-![need a pgp key]({{ site.url }}/assets/generating a key using keybase/03-addakey.png)
+![need a pgp key]({{ site.url }}/assets/generating_a_key_using_keybase/03-addakey.png)
 
 we're going to select I "need a public key" which will then greet us with the following screen:
 
-![generating pgp key]({{ site.url }}/assets/generating a key using keybase/04-generating.png)
+![generating pgp key]({{ site.url }}/assets/generating_a_key_using_keybase/04-generating.png)
 
 fill in the details accordingly and then put your keybase password in and away it goes:
-![generating pgp key cont.]({{ site.url }}/assets/generating a key using keybase/05-generating2.png)
+![generating pgp key cont.]({{ site.url }}/assets/generating_a_key_using_keybase/05-generating2.png)
 
 once it's done it will show you the public key it's generated in the text box, it's important for us at the moment to make sure the "Host encrypted private key, too" option is checked as it will allow us to encrypt and decrypt using the website (for the particularly paranoid you can export the key and delete it later (I will show you at further down how this is done ))
-![finished generating pgp key]({{ site.url }}/assets/generating a key using keybase/06-generating3.png)
+![finished generating pgp key]({{ site.url }}/assets/generating_a_key_using_keybase/06-generating3.png)
 
 Now that the keys have been generated you'll something similar to the screen shot below
-![generating pgp key]({{ site.url }}/assets/generating a key using keybase/07-editkey.png)
+![generating pgp key]({{ site.url }}/assets/generating_a_key_using_keybase/07-editkey.png)
 
 if you want to share your public key with people who don't have keybase you can click the edit button and give them the link below:
-![generating pgp key]({{ site.url }}/assets/generating a key using keybase/08-public key.png)
+![generating pgp key]({{ site.url }}/assets/generating_a_key_using_keybase/08-public key.png)
 
 __exporting private key__
 
@@ -56,11 +56,11 @@ __exporting private key__
 
 do *NOT* share this file with anyone - also keep it safe, if anyone has the private key they can encrypt messages as you so - only do this if you want to use it else where (like pgp locally or [mailvelope][3] etc.) click edit and select export private key
 
-![exporting]({{ site.url }}/assets/generating a key using keybase/09-exportingprivatekey.png)
+![exporting]({{ site.url }}/assets/generating_a_key_using_keybase/09-exportingprivatekey.png)
 
 this will generate the private key into the text box:
 
-![exporting]({{ site.url }}/assets/generating a key using keybase/10-exported.png)
+![exporting]({{ site.url }}/assets/generating_a_key_using_keybase/10-exported.png)
 keep this somewhere safe and as mentioned above don't share it
 
 I hope this has been useful,
