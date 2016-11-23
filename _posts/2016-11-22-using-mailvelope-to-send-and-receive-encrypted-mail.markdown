@@ -62,9 +62,15 @@ Open your favorite email client (gmail, hotmail, yahoo mail, etc.) you'll see th
 
 ![composing]({{ site.url }}/assets/using_mailvelope/10-write-email.png)
 
-![displaying pub key]({{ site.url }}/assets/using_mailvelope/11-public-key.png)
-![displaying pub key]({{ site.url }}/assets/using_mailvelope/12-public-key.png)
-![displaying pub key]({{ site.url }}/assets/using_mailvelope/13-public-key.png)
+a pop up window will appear, (1) select recipient's public keys and then (2) write your message - if you don't want it to be encrypted you can just click sign (3) and it will export the text back into the email browser window but it will be verified that what ever you typed in the compose email window (below) - if someone were to change the contents before it got to the intended recipient this signature would show as invalid (a bit like the way a wax seal on an envelope was at one time used to signify tampering)
+
+![displaying pub key]({{ site.url }}/assets/using_mailvelope/11-plaintext.png)
+
+once you click encrypt you'll be back in your email window but now will have an encrypted message ready to send to who ever you want to email privately
+![displaying pub key]({{ site.url }}/assets/using_mailvelope/12-encrypted-message.png)
+
+on the receipt of the email if the user is also 
+![displaying pub key]({{ site.url }}/assets/using_mailvelope/13-received-email.png)
 ![displaying pub key]({{ site.url }}/assets/using_mailvelope/14-public-key.png)
 ![displaying pub key]({{ site.url }}/assets/using_mailvelope/15-public-key.png)
 

@@ -63,6 +63,8 @@ this will generate the private key into the text box:
 ![exporting]({{ site.url }}/assets/generating a key using keybase\10-exported.png)
 keep this somewhere safe and as mentioned above don't share it
 
+I hope this has been useful,
+Phyu
 
    [1]: https://en.wikipedia.org/wiki/Alice_and_Bob "Alice and Bob"
    [2]: https://keybase.io "Keybase"
