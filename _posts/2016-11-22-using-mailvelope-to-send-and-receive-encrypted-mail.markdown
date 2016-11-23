@@ -30,6 +30,9 @@ seeing as we currently have no keys we need to import some so go to set up then 
 
 ![importing a key]({{ site.url }}/assets/using_mailvelope/03-importing-a-key.png)
 
+
+![displaying keys]({{ site.url }}/assets/using_mailvelope/07-importing-continued.png)
+
 we can paste it in as text - this is handy later for all the public keys (pasting them in one after the other in that text box will import them all at once) - but for now we'll imagine we have a private key file called private.key
 
 ![selecting a file]({{ site.url }}/assets/using_mailvelope/04-selecting-file.png)
@@ -44,7 +47,6 @@ you should see something like this:
 now we've successfully imported our private key
 
 
-![displaying keys]({{ site.url }}/assets/using_mailvelope/07-importing-continued.png)
 
 we can start importing some public keys so we can send encrypted emails for this example we'll use the public key from [keybase][6]
 
