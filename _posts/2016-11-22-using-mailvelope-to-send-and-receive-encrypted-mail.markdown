@@ -50,7 +50,7 @@ now we've successfully imported our private key
 we can start importing some public keys so we can send encrypted emails for this example we'll use the public key from [keybase][6]
 
 we then take the text from the link and post it into the text box in the importing screen shown in the screen shot above and click import
-![a public key]({{ site.url }}/assets/using_mailvelope/08-importing-a-public-key.png)
+![a public key]({{ site.url }}/assets/using_mailvelope/08-importing-a-pub-key.png)
 once that's done - go to display keys
 
 
