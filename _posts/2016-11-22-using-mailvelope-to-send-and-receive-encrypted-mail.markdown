@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using the mailvelope extension to send and receive encrypted mail"
-date:   2016-11-23 00:00:00 +0000
+date:   2016-11-22 00:00:00 +0000
 categories: encryption mail
 ---
 
@@ -69,10 +69,24 @@ a pop up window will appear, (1) select recipient's public keys and then (2) wri
 once you click encrypt you'll be back in your email window but now will have an encrypted message ready to send to who ever you want to email privately
 ![displaying pub key]({{ site.url }}/assets/using_mailvelope/12-encrypted-message.png)
 
-on the receipt of the email if the user is also 
+on the receipt of the email if the user is also using mailvelope they will see the following:
 ![displaying pub key]({{ site.url }}/assets/using_mailvelope/13-received-email.png)
-![displaying pub key]({{ site.url }}/assets/using_mailvelope/14-public-key.png)
-![displaying pub key]({{ site.url }}/assets/using_mailvelope/15-public-key.png)
+
+clicking on the envelope will show the following prompt
+
+![displaying pub key]({{ site.url }}/assets/using_mailvelope/14-decrypting-with-privkey.png)
+
+depending on if you have the correct password and or correct private key you'll either see something like this
+
+![displaying pub key]({{ site.url }}/assets/using_mailvelope/15-decrypted-message.png)
+
+or this
+
+![displaying pub key]({{ site.url }}/assets/using_mailvelope/16-decrypted-without-key-key.png)
+
+I hope this has been useful,
+Phyu
+
 
    [1]: https://google.com/chrome "chrome"
    [2]: https://www.mozilla.org/en-GB/firefox/new/ "Firefox download page"
