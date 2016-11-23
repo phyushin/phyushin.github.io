@@ -82,7 +82,7 @@ depending on if you have the correct password and or correct private key you'll 
 
 or this
 
-![displaying pub key]({{ site.url }}/assets/using_mailvelope/16-decrypted-without-key-key.png)
+![displaying without pub key]({{ site.url }}/assets/using_mailvelope/16-decrypted-without-key.png)
 
 I hope this has been useful,
 Phyu
