@@ -35,16 +35,16 @@ we can paste it in as text - this is handy later for all the public keys (pastin
 ![selecting a file]({{ site.url }}/assets/using_mailvelope/04-selecting-file.png)
 once you've found the private key
 
-![importing continued]({{ site.url }}/assets/using_mailvelope/05-importing-continued.png)
+![importing successful]({{ site.url }}/assets/using_mailvelope/05-import-successful.png)
 
 you should see something like this:
 
-![import successful]({{ site.url }}/assets/using_mailvelope/06-import-successful.png)
+![displaying keys]({{ site.url }}/assets/using_mailvelope/06-displaying-keys.png)
 
 now we've successfully imported our private key
 
 
-![displaying keys]({{ site.url }}/assets/using_mailvelope/07-displaying-keys.png)
+![displaying keys]({{ site.url }}/assets/using_mailvelope/07-importing-continued.png)
 
 we can start importing some public keys so we can send encrypted emails for this example we'll use the public key from [keybase][6]
 
