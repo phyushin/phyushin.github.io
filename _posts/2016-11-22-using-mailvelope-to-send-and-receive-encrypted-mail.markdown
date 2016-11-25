@@ -95,4 +95,4 @@ Phyu
    [4]: https://chrome.google.com/webstore/search/mailvelope?hl=en "chrome extension"
    [5]: https://download.mailvelope.com/releases/latest/mailvelope.firefox.xpi "firefox extension"
    [6]: https://keybase.io/hackspacer123/key.asc "test pub key"
-   [7]: ({ % post-url 2016-11-17-using-keybase % })
+   [7]: {% page.previous.url %}
