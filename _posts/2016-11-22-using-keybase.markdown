@@ -19,7 +19,7 @@ For example [Alice and Bob][1] want to communicate but don't want Charles to be 
 so they devise a method to communicate securely:
 they have a box with two lock hasps on Alice writes a message on a piece of paper in the box and locks her pad lock on it and sends it to Bob
 he then puts his pad lock on and sends it back to Alice who finally unlocks it and sends it back - when Bob receives it this time he unlocks his lock and then can read the note - the processes is repeated for the communication
- note: this isn't EXACTLY how it works but it helps visualise the basic process involved and the idea that only Alice can unlock Alice's key and Bob can only unlock Bob's key
+ note: this isn't EXACTLY how it works but it helps visualise the basic process involved and the idea that only Alice can unlock Alice's key and Bob can only unlock Bob's key (this is the basics of how key exchange works)
 
 So, lets get on with it go to the [Keybase website][2]
 and create an account:

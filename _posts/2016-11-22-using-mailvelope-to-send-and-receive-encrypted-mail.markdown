@@ -13,7 +13,7 @@ __First off - you'll need key pair__
 
 whilst not _strictly_ true - you only _really_ need the public keys of other people to _send_ encrypted emails - you do how ever need your private key if you want to read what you sent or read the replies back
 
-we touched on [how to generate a key pair][6] in the previous blog so we'll not repeat it here - lets get started
+we touched on [how to generate a key pair][7] in the previous blog so we'll not repeat it here - lets get started
 
 __Installing the extension__
 
