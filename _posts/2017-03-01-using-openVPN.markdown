@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Using Open VPN"
-date:   2016-11-26 00:00:00 +0000
-categories: encryption VPN
+date:   2017-03-01 00:00:00 +0000
+categories: Encryption VPN
 ---
 
 I hope this has been useful,
