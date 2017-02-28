@@ -36,12 +36,12 @@ This will give you the SHA1 check sum of the file verify that it matches(1)
 
 ![checksum]({{ site.url }}/assets/checking_file_checksums_to_verify_integrity/2.0_checksum_and_detached_sig.png)
 
-once verified we can install it - be sure to tick the GPA box as this will make things easier later
+Once verified we can install it - be sure to tick the GPA box as this will make things easier later
 
 ![make sure GPA is enabled]({{ site.url }}/assets/checking_file_checksums_to_verify_integrity/4.0_make_sure_to_enable_GPA.png)
 
 
-Once the installation has finished open GPA - we need to generate a keypair or import one if we followed the [earlier post][4] about setting one up using [Keybase][6] as that post mentions you need to keep your private key VERY safe ... don't share it with anyone - not even your _bestest friend_ in the world... my recommendation would be to put it on an encrypted USB drive somewhere safe.
+Once the installation has finished open GPA - we need to generate a key pair or import one if we followed the [earlier post][4] about setting one up using [Keybase][6] - as that post mentions you need to keep your private key VERY safe ... don't share it with anyone - not even your _bestest friend_ in the world... my recommendation would be to put it on an encrypted USB drive somewhere safe.
 
 But any way once you've imported a private key you should see something like this
 
@@ -61,7 +61,7 @@ But oh no! we get the same message we did when we tried to verify in Linux - tha
 
 ![unknown key]({{ site.url }}/assets/checking_file_checksums_to_verify_integrity/10.0_unknown_key.png)
 
-no worries though! we installed GPA so it's really easy to add this
+No worries though! we installed GPA so it's really easy to add this
 
 ![receiving]({{ site.url }}/assets/checking_file_checksums_to_verify_integrity/11,0_receiving_keys.png)
 
@@ -69,17 +69,17 @@ Enter the Key ID in this case `54DDD393` you should then get a prompt saying thi
 
 ![importing]({{ site.url }}/assets/checking_file_checksums_to_verify_integrity/12,0_new_key_imported.png)
 
-now that the key is imported we need to tell GPA that we trust it - we do this by signing it with our key right click the imported key and go to `sign keys...`
+Now that the key is imported we need to tell GPA that we trust it - we do this by signing it with our key right click the imported key and go to `sign keys...`
 
 ![signing key]({{ site.url }}/assets/checking_file_checksums_to_verify_integrity/12.1_signing_key.png)
 
-you will then be prompted for your key password once you enter that you're good to go - go back to the exe file and right click and verify again you should see something like this:
+You will then be prompted for your key password once you enter that you're good to go - go back to the exe file and right click and verify again you should see something like this:
 
 ![signing key]({{ site.url }}/assets/checking_file_checksums_to_verify_integrity/13.0_valid.png)
 
 
-a few caveats though:
-- Don't just sign keys, only sigh it if you trust it
+A few caveats though:
+- Don't just sign keys, only sign it if you trust it
 - Encryption might be illegal where you live, don't break the law
 - This is only intended to be a guide to *hopefully* make file signature checking less intimidating
 
