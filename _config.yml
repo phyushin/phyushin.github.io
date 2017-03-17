@@ -28,4 +28,4 @@ reddit: phyushin360
 host: 0.0.0.0
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-hacker
