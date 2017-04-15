@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Generating a private/public key pair using Keybase.io"
 date:   2016-11-22 10:00:00 +0000
 categories: encryption keys

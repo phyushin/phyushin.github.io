@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Is this what I think it is - using GPG to verify a file's integrity"
 date:   2017-02-28 00:00:00 +0000
 categories: Encryption Checksums Cyber-Buzzwords

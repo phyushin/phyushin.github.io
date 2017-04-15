@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Using Open VPN"
 date:   2017-03-01 00:00:00 +0000
 categories: Encryption VPN
