@@ -51,7 +51,7 @@ So lets go verify something - how about [veracrypt][7] then we can create that e
 
 Download the latest Veracrypt setup and its corresponding PGP signature
 
-![download]({{ site.url }}/assets/checking_file_checksums_to_verify_integrity/8.0_veracypt_and_detached_sig.png)
+![download]({{ site.url }}/assets/checking_file_checksums_to_verify_integrity/8.0_veracrypt_and_detached_sig.png)
 
 right click the exe file and you should see some GPG options - select `verify`
 
@@ -63,11 +63,11 @@ But oh no! we get the same message we did when we tried to verify in Linux - tha
 
 No worries though! we installed GPA so it's really easy to add this
 
-![receiving]({{ site.url }}/assets/checking_file_checksums_to_verify_integrity/11,0_receiving_keys.png)
+![receiving]({{ site.url }}/assets/checking_file_checksums_to_verify_integrity/11.0_receiving_keys.png)
 
 Enter the Key ID in this case `54DDD393` you should then get a prompt saying this key has been imported and it will show up in GPA
 
-![importing]({{ site.url }}/assets/checking_file_checksums_to_verify_integrity/12,0_new_key_imported.png)
+![importing]({{ site.url }}/assets/checking_file_checksums_to_verify_integrity/12.0_new_key_imported.png)
 
 Now that the key is imported we need to tell GPA that we trust it - we do this by signing it with our key right click the imported key and go to `sign keys...`
 
