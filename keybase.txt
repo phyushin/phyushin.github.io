@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/phyushin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.phyubox.com
+  * I am phyushin (https://keybase.io/phyushin) on keybase.
+  * I have a public key ASBvhDfIcb9OvPr08IEyiTgeGqYWnJV3eFAwZfK-GslH6go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206f8437c871bf4ebcfaf4f0813289381e1aa6169c957778503065f2be1ac947ea0a",
+      "host": "keybase.io",
+      "kid": "01206f8437c871bf4ebcfaf4f0813289381e1aa6169c957778503065f2be1ac947ea0a",
+      "uid": "a1b9f0c65f90c1e8df89fa333f0d0619",
+      "username": "phyushin"
+    },
+    "merkle_root": {
+      "ctime": 1524922464,
+      "hash": "d584981f9a1495274e54525cc97b64c9578931c280d25ac06b2a090e4698de5a6a560a81f447a6a1d922bb0e58d2f475096aa511245b82e6cf0b40a6d8c3a5aa",
+      "hash_meta": "9e28ff90ea61f3453ffb701f3e9b64b8826cd1e1702902604e34ca243a6b4155",
+      "seqno": 2453583
+    },
+    "service": {
+      "entropy": "G2BvcfXpYZBM2boiINAGeKw1",
+      "hostname": "blog.phyubox.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1524922503,
+  "expire_in": 504576000,
+  "prev": "41892c838e0e4f978eada68df06735b5e02b65cad9cadae3ac4b401df9bfa193",
+  "seqno": 140,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgb4Q3yHG/Trz69PCBMok4HhqmFpyVd3hQMGXyvhrJR+oKp3BheWxvYWTES5cCzIzEIEGJLIOODk+Xjq2mjfBnNbXgK2XK2cra46xLQB35v6GTxCBufFm773cSGVj+zV1RYJfZEsgtvsMa1DHUUckVnl2tzgIBwqNzaWfEQIOcfZ+ertnPgSMC1h3ua/fZWTyC++E9mnvUrk6qSem9g+hOHtCSEcenTfva+mxcSAgzSVSJeMmLxHanIrGd8ACoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDLbMwLaTQtMEDziQweqzS36ldp1xA0pUjsMdbZvZNReqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/phyushin
+
+==================================================================
