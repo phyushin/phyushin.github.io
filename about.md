@@ -5,4 +5,4 @@ permalink: /about/
 ---
 _Hi There,_
 I'm phyushin,
-a developer, gamer, hackspacer, __occasional__ redditor
+A Pentester, Gamer, Hackspacer, __Occasional__ Redditor

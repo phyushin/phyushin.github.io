@@ -79,9 +79,9 @@ You will then be prompted for your key password once you enter that you're good 
 
 
 A few caveats though:
-- Don't just sign keys, only sign it if you trust it
-- Encryption might be illegal where you live, don't break the law
-- This is only intended to be a guide to *hopefully* make file signature checking less intimidating
+- Don't just sign keys, only sign it if you trust it.
+- Encryption might be illegal where you live, don't break the law.
+- This is only intended to be a guide to *hopefully* make file signature checking less intimidating.
 
 
 I hope this has been useful,
