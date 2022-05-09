@@ -6,7 +6,7 @@ categories: Mobile Testing Android
 ---
 # Getting Started With Mobile Testing 
 
-I wanted to do a series of posts to hopefully give a little insight into getting started in the world of mobile testing, and some basic tasks such creating the right test environment to allow you to easily do android testing... so without further ado, let's get started
+I wanted to do a series of posts to hopefully give a little insight into getting started in the world of mobile testing, and some basic tasks such as creating the right test environment to allow you to easily do android testing... so without further ado, let's get started
 
 # Things We'll Need
 
@@ -21,7 +21,7 @@ Opening up Android Studio we're greeted by something that will look like the fol
 
 Go ahead and click the `configure` option at the bottom and select  `avd manager` ![avd manger]({{ site.url }}/assets/getting_started_android_testing/create_new_avd.png)
 
-Select a device that doesn't have the play store enabled as this will allow us to create a device we can can access as the root user. Make sure to create  Oreo or less ![oreo]({{ site.url}}/assets/getting_started_android_testing/oreo.png) 
+Select a device that doesn't have the play store enabled as this will allow us to create a device we can can access as the root user. Make sure to create Oreo or less ![oreo]({{ site.url}}/assets/getting_started_android_testing/oreo.png) 
 (this will be important later). Make sure to name it something memorable - we'll be starting it using the command line.
 
 ![finish_avd]({{ site.url }}/assets/getting_started_android_testing/saving_avd.png)
@@ -55,6 +55,7 @@ generic_x86:/ #
 Now we're ready to install apps to test on rooted devices!
 
 Hopefully this has been useful,
+
 Phyu
 
 
