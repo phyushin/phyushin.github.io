@@ -10,10 +10,14 @@ Hello everyone I've decided to kick the cobwebs off my blog and write something 
 ## Motivation
 This blog series is intended for me to cement my iOS testing knowledge as well as put out some (hopefully) interesting content that isn't behind a damn medium paywall.
 
+## Step Zero, BACKUP
+Before we go any further, backup backup BACKUP, you'll want to be able to restore the device if anything goes wrong... which it won't ofc but just to make sure.
+
 
 ## Step One, iPhone
-For my testing device I've gone with the iPhone 8+ (iOS 16.7.11) as it was what I had laying around after I upgraded and handily, it can still be jailbroken using the [palera1n][1] method unfortunately though I can't use trollstore to install the app. I can; however, use [Sideloadly][3] it's a simple process, connect the device up to your device - I'm using mac here but i've used windows too - drag the IPA over the the `IPA` box and then click start you'll it will ask you to log in and then drop the app on the device
-![sideloadly.png]({{ site.url }}/assets/ios_mobile_app_testing_pt1/sideloadly.png)
+For my testing device I've gone with the iPhone 8+ (iOS 16.7.11) as it was what I had laying around after I upgraded, and handily, it can still be jailbroken using the [palera1n][1] method unfortunately though I can't use trollstore to install the app. I can; however, use [Sideloadly][3] it's a simple process, connect the device up to your device - I'm using mac here but i've used windows too - drag the IPA over the the `IPA` box and then click start you'll it will ask you to log in and then drop the app on the device:
+
+{% include image.html url="assets/ios_mobile_app_testing_pt1/sideloadly.png" description="Sideloadly Screenshot showing upload of an IPA" %}
 
 
 ## iGoat-Swift
@@ -46,19 +50,27 @@ ssh mobile@$IPHONE_IP -L 27042:localhost:27042 ## ssh into the phone forwarding 
 # sudo su
 # dpkg -i frida_server64.deb ## frida_server.deb for 32bit
 ```
-
+<br />
 
 Once this script has run it should have downloaded the relevant frida-server and pushed it up to the device.
 Next we check that we can connect to the frida-server using the following command:
 `frida-ps -Rai | grep -i "goat"`
-This will list all running processes on the device (the -R flag is for remote host) and grep the results for anything with the word `goat` in:
-![frida-ps.png]({{ site.url }}/assets/ios_mobile_app_testing_pt1/frida-ps.png)
+
+
+This will list all running processes on the device (the `-R` flag is for remote host) and grep the results for anything with the word `goat` in:
+{% include image.html url="assets/ios_mobile_app_testing_pt1/frida-ps.png" description="Frida-ps showing the goat process" %}
+
 Now we know the gadget we can launch objection with the `explore` option: 
-![objection.png]({{ site.url }}/assets/ios_mobile_app_testing_pt1/objection.png)
+
+
+{% include image.html url="assets/ios_mobile_app_testing_pt1/objection.png" description="Frida gadget running with the explore option" %}
 
 
 Finally to round it off here, issue the `env` command in the REPL to display application environment information such as where the app is on the device and and folders used to store data:
-![app-env.png]({{ site.url }}/assets/ios_mobile_app_testing_pt1/app-env.png)
+
+
+{% include image.html url="assets/ios_mobile_app_testing_pt1/app-env.png" description="Frida gadget showing the environment the app is running in" %}
+
 
 Hopefully, This was useful
 
