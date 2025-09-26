@@ -4,7 +4,7 @@ title:  "Adding Captions To Images In Jekyll"
 date:   2025-09-23 00:00:00 +0000
 categories: Markdown
 ---
-I wasn't quite happy with the way my last blogpost looked so I decided to add captions to the images and make them a little _prettier_ so I've documented what I did, (it wasn't super hard) but just incase anyone else wanted to do the same then they can checkout the [previous post][1] to see how it shakes out
+I wasn't quite happy with the way my last blogpost looked so I decided to add captions to the images and make them a little _prettier_ so I've documented what I did, (it wasn't super hard) but just in case anyone else wanted to do the same then they can checkout the [previous post][1] to see how it shakes out
 
 
 ## First Off
