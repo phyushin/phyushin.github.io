@@ -4,7 +4,7 @@ title:  "Adding Captions To Images In Jekyll"
 date:   2025-09-23 00:00:00 +0000
 categories: Markdown
 ---
-I wasn't quite happy with the way my last blogpost looked so I decided to add captions to the images and make them a little _prettier_ so I've documented what I did, (it wasn't super hard) but just in case anyone else wanted to do the same then they can checkout the [previous post][1] to see how it shakes out
+I wasn't quite happy with the way my last blog post looked so I decided to add captions to the images and make them a little _prettier_; I've documented what I did, (it wasn't super hard) just in case anyone else wanted to do the same then they can checkout the [previous post][1] to see how it shakes out.
 
 
 ## First Off
@@ -21,8 +21,8 @@ Open the file and add HTML like the below, note the use of the `include.url` and
 ```html
 <figure class="image">
     <img 
-        src="{{site.url}}/{{ include.url }}" 
-        alt="{{ include.description }}"
+        src="{{ site.url }}/{{ include.url }}" 
+        alt="{{ include.alt | default: include.description }}"
         class="img-responsive"
     >
     <figcaption>
@@ -42,7 +42,7 @@ The `include.*` works in the same way as `props` in _react_ I guess, so what wil
 {% endraw %}
 
 Once rendered, it will look like this:
-{% include image.html url="assets/adding_captions_to_images_in_jekyll/image_with_caption.png" description="A Screenshot of a Screenshot... very meta" %}
+{% include image.html url="assets/adding_captions_to_images_in_jekyll/image_with_caption.png" alt="A screenshot showing the screenshot (including caption) of the sideloadly ui for uploading an ipa to an iPhone" description="A Screenshot of a Screenshot... very meta" %}
 
 
 ## Other Quirks...
@@ -51,6 +51,13 @@ To fix this you can wrap the _offending_ code in the `raw` tag ending with the `
 
 These are wrapped with with the {% raw %} `{% %}` {% endraw %} but trying to get that to display ends up with a loop of trying to render how we displayed each bit... so i'm not gonna do that :)
 
+---
+** NOTE: I've also added an actual `alt` property to the image "template" that way if the caption isn't really descriptive enough for alt text alternative alt text can be provided by adding an alt property specifically in the liqiud syntax e.g.:  **
+{% raw %}
+    {% include image.html url="someurl" description="caption goes here" alt="alt text for screenreaders"%}
+{% endraw %}
+
+---
 
 Hopefully, This was useful
 

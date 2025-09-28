@@ -1,7 +1,7 @@
 <figure class="image">
     <img 
         src="{{site.url}}/{{ include.url }}" 
-        alt="{{ include.description }}"
+        alt="{{ include.alt | default: include.description }}"
         class="img-responsive"
     >
     <figcaption>
