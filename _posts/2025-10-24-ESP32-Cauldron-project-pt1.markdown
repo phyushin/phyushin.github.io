@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "ESP32 Cauldron Project Pt 1."
-date:   2025-10-26 00:00:00 +0000
+date:   2025-10-24 00:00:00 +0000
 categories: ESP32 Arduino Electronics
 ---
 
@@ -26,7 +26,11 @@ The repository for this project can be found [here][1] if you want to make one y
 ## Initial Prototype
 The inital code for the prototype I _borrowed_ from another project I had that used the same LEDs and the same ESP32 - both projects make use of the fantastic [Adafruit_NeoPixel][6] library and to develop I'm using the [PlatformIO][7] Extensions for VSCode - if you're following along with the repo, install the platformIO extenstion into VSCode _first_ and then when you open the project folder it will take care of the set up for you! - although setting up PlatformIO is beyond the scope of this blog post.
 
-**Note: From here on out I'll be referring to the LED strips as 'pixelStrip' (in the code as well as the related blog posts).**
+---
+
+Note: From here on out I'll be referring to the LED strips as 'pixelStrip' (in the code as well as the related blog posts).
+
+---
 
 First thing we need to do is "light up" some LEDs to do that we need to _tell_ the controller a little bit about the pixelStrip; this goes in our `LED.h` (again if you've following along at home this will make sense in the repo structure):
 
@@ -141,7 +145,7 @@ With my prototype pixelStrip, `6` yellow and `9` blue after the final yellow so 
 pixelStrip.setPixelColor(58, ledOn ? colour : 0); 
 ```
 
-Now We're up and running, we can start to experiment with different effects. but that is for another post!
+Now We're up and running, we can start to experiment with different effects. but that is for [another post][8]!
 
 Hopefully, this was interesting
 
@@ -155,3 +159,4 @@ Phyu
 [5]: https://leighhack.org
 [6]: https://github.com/adafruit/Adafruit_NeoPixel
 [7]: https://github.com/platformio
+[8]: {% post_url ../2025-10-26-ESP32-Cauldron-project-pt2 %}

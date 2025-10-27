@@ -2,7 +2,7 @@
 layout: default
 title:  "Using the mailvelope extension to send and receive encrypted mail"
 date:   2016-11-22 00:00:00 +0000
-categories: encryption mail
+categories: Encryption Mail
 ---
 
 __What is Mailvelope, and why should I care?__
