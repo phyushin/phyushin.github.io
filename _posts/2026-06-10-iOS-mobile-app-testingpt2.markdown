@@ -25,6 +25,9 @@ Once you've booted the device go ahead and install the sftp-server in the sileo 
 ## Why, though?
 A few reasons, as mentioned previously, it's getting harder to run newer apps on old devices requirements for newer versions of iOS rule out older, jailbroken devices - in the past I have used [corellium][4]; but recently I've not been _getting along_ with it, it's pretty expensive if you're just doing stuff yourself; there is also the _not on my own hardware_ aspect of it; which, depending on your risk appetite (or other factors) might rule it out for you too.
 
+## Installing an app
+Installing an app using the vphone is really easy - all you need to do is drag the IPA from finder and drop it over the vphone window it will then install
+
 ## What next?
 Now we've got a running jailbroken iOS device, we can borrow the script I wrote in a [previous post][5] and add some tweaks to get it to work for our purposes here:
 
@@ -66,6 +69,8 @@ From here we can use the names in `frida-ps` to connect to a process in `objecti
 
 Once you're connected to the process you can start to explore the application - for example using `env` to find where the app stores data:
  {% include image.html url="assets/ios_mobile_app_testing_pt2/objection_env.png" description="App environment information" %}
+
+ We're going to leave it here for this post as we've now got an idea of how to set up a testing environment using Lakr233's vphone [repo][1]
 
 ## Troubleshooting
 
