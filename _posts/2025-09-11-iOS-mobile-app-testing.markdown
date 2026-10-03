@@ -33,7 +33,7 @@ export IPHONE_IP="192.168.0.101"
 ## create mobile testing Venv
 python3 -m venv ~/.mobile_testing_venv
 source ~/.mobile_testing_venv/bin/activate
-pip3 install frida-tools==13.7.1 frida==16.7.19 objection
+pip3 install frida-tools==13.7.1 frida==16.7.19
 wget https://github.com/frida/frida/releases/download/16.5.2/frida_16.5.2_iphoneos-arm64.deb # grab 64-bit frida-server for iPhone
 
 wget https://github.com/frida/frida/releases/download/16.5.2/frida_16.5.2_iphoneos-arm.deb   # 32-bit frida-server for iPhone
