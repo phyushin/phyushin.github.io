@@ -64,5 +64,5 @@ Hopefully, This was useful
 Phyu
 
 
-[1]: {% post_url ../2025-09-11-iOS-mobile-app-testing %}
+[1]: {% link _posts/2025-09-11-iOS-mobile-app-testing.markdown %}
 [2]: https://jekyllrb.com/docs/liquid/

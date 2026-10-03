@@ -159,4 +159,4 @@ Phyu
 [5]: https://leighhack.org
 [6]: https://github.com/adafruit/Adafruit_NeoPixel
 [7]: https://github.com/platformio
-[8]: {% post_url ../2025-10-26-ESP32-Cauldron-project-pt2 %}
+[8]: {% link _posts/2025-10-26-ESP32-Cauldron-project-pt2.markdown %}
