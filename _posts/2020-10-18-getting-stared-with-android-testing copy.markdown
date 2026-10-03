@@ -58,9 +58,4 @@ Hopefully this has been useful,
 
 Phyu
 
-
-
-
-
-
 [1]: https://developer.android.com/studio

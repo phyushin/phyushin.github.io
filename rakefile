@@ -1,0 +1,25 @@
+require 'rake'
+require 'yaml'
+
+desc "Create a new post: rake post TITLE='My Post'"
+task :post, :title do |t, args|
+  args.with_defaults(:title => 'My New Post')
+  title = args.title
+  slug  = title.downcase.gsub(/\s+/, '-').gsub(/[^a-z0-9-]/, '')
+  date  = Time.now.strftime('%Y-%m-%d')
+  path  = "_posts/#{date}-#{slug}.md"
+
+  abort "File #{path} already exists!" if File.exist?(path)
+
+  File.open(path, 'w') do |f|
+    f.puts "---"
+    f.puts "layout: default"
+    f.puts "title: \"#{title}\""
+    f.puts "date: #{date} 00:00:00"
+    f.puts "categories: []"
+    f.puts "tags: []"
+    f.puts "---"
+  end
+
+  puts "Created: #{path}"
+end

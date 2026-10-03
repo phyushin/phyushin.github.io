@@ -134,4 +134,4 @@ Hopefully, this was interesting
 Phyu
 
 
-[1]: {% post_url ../2025-10-24-ESP32-Cauldron-project-pt1 %}
+[1]: {% link _posts/2025-10-24-ESP32-Cauldron-project-pt1.markdown %}
